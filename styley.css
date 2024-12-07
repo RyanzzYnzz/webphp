@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login box styling */
+.login-box {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Left box styling */
+.left-box {
+    flex: 1;
+    padding: 40px;
+    background: white;
+}
+
+.left-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-box input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #f54ea2, #ff7676);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Right box styling */
+.right-box {
+    flex: 1;
+    padding: 40px;
+    background: linear-gradient(90deg, #f54ea2, #ff7676);
+    color: white;
+    text-align: center;
+}
+
+.right-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.right-box p {
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: white;
+    color: #f54ea2;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background: #f54ea2;
+    color: white;
+}
